@@ -23,8 +23,6 @@ const wordSearch = (letters, word) => {
     }
   }
 
-
-
   // look for the word backwards
   const reversedWord = word.split('').reverse().join('');
 
